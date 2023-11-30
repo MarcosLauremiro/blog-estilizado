@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    text-align: center;
+}
+
+header{
+    padding: 15px;
+}
+
+header > h1 {
+    font-size: 26px;
+    color:blue;
+    border: 2px solid blue;
+    padding: 2px;
+    display: inline-block;
+}
+
+article {
+    display: inline-block;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+p {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.4;
+    width: 80%;
+}
+
+
+.artigos {
+    background-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    font-size: 12px;
+}
+
+.autor {
+    font-size: 12px;
+}
+
+.info {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+}
+
+label {
+    font-size: 12px;
+}
+input {
+    background-color: #ccc;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+input::placeholder {
+    font-size: 12px;
+    padding: 10px;
+}
+button {
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(181, 181, 243);
+    box-shadow: 1px 1px 4px black;
+}
+button:hover {
+    background-color: rgb(16, 16, 170);
+    color: white;
+}
+input:hover {
+    background-color: aliceblue;
+}
